@@ -14,8 +14,4 @@ class Appointment
     @@all
   end
 
-  def doctor
-
-  end
-
 end
