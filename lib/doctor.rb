@@ -26,10 +26,6 @@ class Doctor
   def patients
     Patient.all.select do |patient|
       patient.doctor == self
-    def songs
-      Song.all.select do |song|
-        song.artist == self
-      end
     end
   end
 end
