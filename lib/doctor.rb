@@ -24,6 +24,8 @@ class Doctor
   end
 
   def patients
-    
+    Patient.all.select do |patient|
+        patient.doctor == self
+    end
   end
 end
