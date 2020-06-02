@@ -26,7 +26,7 @@ class Doctor
   def patients
     #binding.pry
     Appointment.all.collect do |appointment|
-      appointment.patients
+      appointment.patient
     end
   end
 
