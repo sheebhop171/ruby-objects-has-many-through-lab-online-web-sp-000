@@ -28,3 +28,5 @@ class Doctor
       patient.doctor == self
     end
   end
+
+end
