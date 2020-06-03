@@ -23,7 +23,7 @@ class Doctor
   end
 
   def patients
-    #binding.pry
+    binding.pry
     appointements.map do |appointment|
       appointment.patient
     end
