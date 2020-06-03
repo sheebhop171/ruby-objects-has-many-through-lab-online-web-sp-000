@@ -28,8 +28,8 @@ class Patient
 
   def doctors
     #binding.pry
-    appointments.map do |appointment|
-      appointment.doctor
+    appointments.map do |doctor|
+      doctor.patient == self
     end
   end
 
